@@ -1,23 +1,68 @@
 ---
 layout: default
 ---
+<section id="image">
+  <img src="images/mod.jpg" alt="bg-image" class="back-image">
+</section>
 
-<div class="home">
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-md-5 col-md-offset-2 content" id="secpos">
 
-  <h1 class="page-heading">Posts</h1>
+      <p>Todays News</p>
+      <button type="button" class="btn btn-default" id="btndef">Contact Us</button>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <hr>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do</p>
 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt possimus tenetur eius quod voluptas doloremque, non et repellendus impedit adipisci amet accusantium dolores ipsa cumque deserunt magnam officiis maxime nostrum quisquam, est dolore excepturi quis asperiores harum. Harum quaerat, dolor reprehenderit. Accusantium excepturi nulla molestiae facilis earum illo iste, possimus fugiat placeat repellat consectetur quis corporis at ullam eligendi hic, repudiandae quos amet, vitae vero!</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint totam doloremque eveniet quibusdam dolore accusamus hic esse, deleniti ea eius accusantium nam dolorum ducimus ipsum ut omnis. Ipsum doloribus reprehenderit minima, modi delectus, voluptas iste, veritatis maxime, nesciunt labore doloremque qui deleniti debitis fuga ipsa.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eaque blanditiis aut corporis quibusdam, accusantium quam molestias atque, numquam quidem, necessitatibus voluptates rem beatae in ex! Earum unde illum minus!</p>
+
+      <hr>
+
+      <h2>Design Quality</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, id!</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt possimus tenetur eius quod voluptas doloremque, non et repellendus impedit adipisci amet accusantium dolores ipsa cumque deserunt magnam officiis maxime nostrum quisquam, est dolore excepturi quis asperiores harum. Harum quaerat, dolor reprehenderit. Accusantium excepturi nulla molestiae facilis earum illo iste, possimus fugiat placeat repellat consectetur quis corporis at ullam eligendi hic, repudiandae quos amet, vitae vero!</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint totam doloremque eveniet quibusdam dolore accusamus hic esse, deleniti ea eius accusantium nam dolorum ducimus ipsum ut omnis. Ipsum doloribus reprehenderit minima, modi delectus, voluptas iste, veritatis maxime, nesciunt labore doloremque qui deleniti debitis fuga ipsa.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eaque blanditiis aut corporis quibusdam, accusantium quam molestias atque, numquam quidem, necessitatibus voluptates rem beatae in ex! Earum unde illum minus!</p>
+    </div>     
+    <div class="col-md-5 " id="speak">
+      <div class=" container-fluid matter">
+        <div class="row">
+          <div class="col-md-10">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi accusamus, pariatur quaerat!</h3>
+            <p id="talk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui et harum quam culpa impedit rerum dolorem laborum voluptates, eum hic sint dolorum labore debitis minima velit iste eius quas ab! Earum voluptates veniam vel quidem expedita, error in quasi. Eligendi assumenda harum aspernatur dolore eveniet dicta, libero officiis commodi suscipit magni iste recusandae quaerat, distinctio, animi. Beatae eligendi, nihil perferendis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="container-fluid contactsec">
+  <div class="row">
+    <div class="col-md-5 col-md-offset-2">
+      <h4>Contact Us Today</h4>
+      <p>Get in touch with our design team</p> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, expedita, quae. Error maxime laudantium at optio quis tenetur nam, accusamus, dolorum odio. Perspiciatis quidem maxime dignissimos, neque dolorum nisi impedit quisquam sunt, consectetur ipsum porro voluptate rem necessitatibus, incidunt animi!</p>
+      <button type="button" class="btn btn-default" id="btncontact">Get in Touch</button>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="check">
+          Get notified when items in this bundle are updated
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
