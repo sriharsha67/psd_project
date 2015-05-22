@@ -11,6 +11,19 @@
     border: 0px;
     text-transform: uppercase;
 
+    #togglebtn{
+        right:0;
+        top:0;
+        border-radius: 0px;
+        background-color:#1ac7c3;
+        margin-top: 0; 
+        border: 0;
+    }
+
+    .btnlines{
+        background-color: #fff;
+    }
+
     .styling{
       color: #f26c4f;
       font-family: 'Open Sans', sans-serif;
@@ -28,8 +41,8 @@
 }
 
 #colpos{
-   position:relative;
-   top:-24px;
+ position:relative;
+ top:-24px;
 }
 
 .content{
@@ -38,11 +51,11 @@
 }
 
 .parastyle{
-   font-size: 8px;
-   color: #7b92a4;
-   font-weight: 600;
-   line-height: 12px;
-   font-family: 'Open Sans', sans-serif;
+ font-size: 8px;
+ color: #7b92a4;
+ font-weight: 600;
+ line-height: 12px;
+ font-family: 'Open Sans', sans-serif;
 }
 
 #newstyle{
@@ -90,9 +103,9 @@
 }
 
 .matter{
-   position: absolute;
-   top: 50%;
-   transform:translateY(-50%);
+ position: absolute;
+ top: 50%;
+ transform:translateY(-50%);
 }
 
 #talk{
@@ -145,9 +158,9 @@
 }
 
 #pos{
- position: relative;
- top: 50%;
- transform:translateY(-50%);
+   position: relative;
+   top: 50%;
+   transform:translateY(-50%);
 }
 
 #footstyle{
