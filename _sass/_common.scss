@@ -15,8 +15,8 @@
       color: #f26c4f;
       font-family: 'Open Sans', sans-serif;
       font-size: 9px;
-    }
   }
+}
 }
 
 /*Section 2: Left section below the image*/
@@ -24,7 +24,12 @@
 
 #secpos{
   position:relative;
-  top:-25px;
+  top:-24px;
+}
+
+#colpos{
+   position:relative;
+   top:-24px;
 }
 
 .content{
@@ -33,11 +38,11 @@
 }
 
 .parastyle{
- font-size: 8px;
- color: #7b92a4;
- font-weight: 600;
- line-height: 12px;
- font-family: 'Open Sans', sans-serif;
+   font-size: 8px;
+   color: #7b92a4;
+   font-weight: 600;
+   line-height: 12px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 #newstyle{
@@ -85,9 +90,9 @@
 }
 
 .matter{
- position: absolute;
- top: 50%;
- transform:translateY(-50%);
+   position: absolute;
+   top: 50%;
+   transform:translateY(-50%);
 }
 
 #talk{
@@ -140,9 +145,9 @@
 }
 
 #pos{
-   position: relative;
-   top: 50%;
-   transform:translateY(-50%);
+ position: relative;
+ top: 50%;
+ transform:translateY(-50%);
 }
 
 #footstyle{
