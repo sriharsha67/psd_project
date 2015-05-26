@@ -5,11 +5,14 @@
   width: 100vw;
   background-image: url("/images/mod.jpg");
   background-size: cover;
+  background-position: right-bottom;
 
   #navigation{
     background:transparent;
     border: 0px;
+    border-radius: 0px;
     text-transform: uppercase;
+    background-color: rgba(255,255,255,0.2);
 
     #togglebtn{
         right:0;
@@ -17,11 +20,12 @@
         border-radius: 0px;
         background-color:#1ac7c3;
         margin-top: 0; 
+        margin-right: 0;
         border: 0;
     }
 
     .btnlines{
-        background-color: #fff;
+        background-color: #ffffff;
     }
 
     .styling{
@@ -37,12 +41,12 @@
 
 #secpos{
   position:relative;
-  top:-24px;
+  top:-34px;
 }
 
 #colpos{
- position:relative;
- top:-24px;
+   position:relative;
+   top:-34px;
 }
 
 .content{
@@ -50,16 +54,22 @@
   background-color: #ffffff;
 }
 
+#contentpos{
+    margin-top: 50px;
+}
+
 .parastyle{
- font-size: 8px;
- color: #7b92a4;
- font-weight: 600;
- line-height: 12px;
- font-family: 'Open Sans', sans-serif;
+   font-size: 8px;
+   color: #7b92a4;
+   font-weight: 600;
+   line-height: 12px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 #newstyle{
-  font-style: italic;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
 }
 
 #btndef{
@@ -72,8 +82,10 @@
     color: #ffffff;
     font-family: 'Open Sans',sans-serif;
     text-transform: uppercase;
-    font-size: 9px;
+    font-size: 1em;
     font-weight: 600;
+    width: 25%;
+    height: 5%
 }
 
 .textstyle{
@@ -102,11 +114,11 @@
     font-weight: 300; 
 }
 
-.matter{
- position: absolute;
- top: 50%;
- transform:translateY(-50%);
-}
+// .matter{
+//     position: relative;
+//    top: 50%;
+//    transform:translateY(-50%);
+// }
 
 #talk{
     font-family: 'Open Sans', sans-serif;
@@ -158,9 +170,9 @@
 }
 
 #pos{
-   position: relative;
-   top: 50%;
-   transform:translateY(-50%);
+ position: relative;
+ top: 50%;
+ transform:translateY(-50%);
 }
 
 #footstyle{
