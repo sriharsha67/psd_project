@@ -17,6 +17,7 @@
     border-radius: 0px;
     text-transform: uppercase;
     background-color: rgba(255,255,255,0.2);
+    box-sizing: border-box;
 
     #togglebtn{
         right:0;
@@ -39,6 +40,12 @@
   }
 
   .logo{
+    border: 1px solid #f26c4f;
+    color: #ffffff;
+    background-color: #f26c4f;
+  }
+
+  a:hover{
     border: 1px solid #f26c4f;
     color: #ffffff;
     background-color: #f26c4f;
@@ -177,6 +184,8 @@
 
 #lstyle{
     color: #ffffff;
+    display: inline-block;
+    padding-left: 0.5em;
 }
 
 /*Section 5:Footer*/
