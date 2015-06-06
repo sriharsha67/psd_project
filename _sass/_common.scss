@@ -1,6 +1,8 @@
 $primary-color: #f26c4f;//orange
 $secondary-color:#1ac7c3;//turquoise
 $additional-color:#ffffff;//white
+$primary-font: 'Open Sans',sans-serif;
+$secondary-font:'Raleway' , sans-serif;
 
 // Common styling for whole page
 html,body{
@@ -44,7 +46,7 @@ html,body{
 
     .styling{
       color: $primary-color;
-      font-family: 'Open Sans', sans-serif;
+      font-family:  $primary-font;
       font-size: 1em;
   }
 
@@ -89,7 +91,7 @@ html,body{
    color: #7b92a4;
    font-weight: 400;
    line-height: 1.8em;
-   font-family: 'Open Sans', sans-serif;
+   font-family:  $primary-font;
 }
 
 #newstyle{
@@ -106,7 +108,7 @@ html,body{
     border-radius: 0px;
     background-color: $primary-color;
     color: $additional-color;
-    font-family: 'Open Sans',sans-serif;
+    font-family: $primary-font;
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 600;
@@ -115,7 +117,7 @@ html,body{
 }
 
 .textstyle{
-    font-family: 'Raleway', sans-serif;
+    font-family: $secondary-font;
     text-transform: uppercase;
     color: #002d52;
     font-weight: 400;
@@ -126,7 +128,7 @@ html,body{
     color: #7b92a4;
     font-weight: 600;
     line-height: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family:  $primary-font;
 }
 
 /*Section 3: Right section below the image*/
@@ -136,7 +138,7 @@ html,body{
     background-color: $secondary-color;
     color: $additional-color;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: $secondary-font;
     font-weight: 300; 
     padding: 15vh 0;
 }
@@ -153,7 +155,7 @@ html,body{
 }
 
 #talk{
-    font-family: 'Open Sans', sans-serif;
+    font-family:  $primary-font;
     font-weight: 300;
     font-style: italic;
     text-transform: none;
@@ -186,7 +188,7 @@ html,body{
     background-color: $additional-color;
     border-radius: 0px;
     text-transform: uppercase;
-    font-family: 'Raleway' , sans-serif;
+    font-family: $secondary-font;
     font-size: 10px;
     font-weight: 600;
 }
